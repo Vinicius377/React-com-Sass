@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top :10px;
+    margin:10px auto;
+    width: 95%;
+}
+.icons{
+
+    svg{
+        margin-left:20px;   
+        cursor:pointer;
+    }
+}
+.img{
+    background:red;
+    border-radius: 100%;
+    width: 30px;
+    height:30px;
+}
+// estilizando o input seach
+.seach{
+    margin:10px auto;
+    width:95%;
+    height: 40px;
+    background:white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    input{
+        margin-left:10px;
+        padding:auto 10px;
+        box-sizing: content-box;
+        background: transparent;
+        width: 100%;
+        border:none;
+        height: 100%;
+        flex:1;
+        font-size: 1em;
+        &:focus{
+            outline: none;
+        }
+    }
+    svg{
+        margin: 0 10px;
+        cursor:pointer;
+    }
+}

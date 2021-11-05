@@ -1,0 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+}
+.conteudo{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 400px 1fr;
+}

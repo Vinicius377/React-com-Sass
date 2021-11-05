@@ -1,0 +1,21 @@
+.contact{
+    border-bottom:solid 1px #ECECEC;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    cursor:pointer;
+    img{
+        margin:auto 10px;
+        width: 40px;
+        height: 40px;
+        background: blue;
+        border-radius: 100%;
+    }
+    .texts{
+        
+        flex:1;
+        p{
+            margin-left:5px;
+        }
+    }
+}
